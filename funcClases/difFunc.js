@@ -11,4 +11,5 @@ const square3 = function(a){
 const square4 = function(cb){
     return cb(a);
 }
-console.log(square3 (10));
+//console.log(square3 (10));
+
