@@ -54,7 +54,7 @@ for (let i = words.length - 1; i >= 0; i--) {
 
 console.log("For with arr: ", sentence);
 
-//WITH
+//WHILE
 
 let n = 0;
 let sum2 = 0;
@@ -64,7 +64,7 @@ while (n <= 3){
   sum2 += n;
   n++;
 }
-console.log("With: ", { n, sum2 });
+console.log("While: ", { n, sum2 });
 
 // MATRIX
 
@@ -142,33 +142,6 @@ for (let i = 0; i < data.length; i++){
       console.log(greating(data[i].name, species[j].animal));
     }
   }
-}
-
-// const arrayNums1 = [7,101,3,1,9,11,100,111] // 343
-// const arrayNums2 = [90,101,3,1,69,11,10,111] // 396
-// // 343 + 396
-// let sumNums = 0;
-// function sumNumsInArrays(array1, array2) {
-//   for (let i = 0; i < arrayNums1.length; i++) {
-//     array1 = array1 + arrayNums1[i];
-//   };
-//   for (let i = 0; i < arrayNums2.length; i++) {
-//     array2 = array2 + arrayNums1[i];
-//   };
-// }
-// //console.log(sumNumsInArrays);
-// const arrayNums1 = [7,101,3,1,9,11,100,111]
-
-// function printEvenNumbers (n) {
-//     for (let i = 1; i < n; i++) {
-//         if (i % 2 === 0) {
-//           str += i + ", ";
-//           //return i;
-//         }
-//         return i
-//     }
-// };
-// console.log(printEvenNumbers.str);
-
+};
 
 
